@@ -6,10 +6,18 @@
         <meta name="viewport" content="widht=device-width, initial-scale:1.0">
         <link rel="stylesheet" href="styles.css">
         <script type="text/javascript" src="scripts.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.js"></script>
+        <script type="text/javascript">
+            $(window).scroll(function(){
+                if($(this).scrollTop()>100) {
+                    $("nav").addClass("sticky");
+                }
+            })
+        </script>
     </head>
     <body>
         <header>
-            <nav>
+            <nav class="navbar">
                 <a>Home</a>
                 <a>Page 2</a>
                 <a>Page 3</a>
@@ -25,6 +33,7 @@
             <p>aaa</p>
             <p>aaa</p>
             <p>aaa</p>
+            <section></section>
         </article>
     </body>
 </html>
