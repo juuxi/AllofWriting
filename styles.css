@@ -17,31 +17,36 @@ h1 {
 .navbar {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
     height: 50px;
     z-index: 999;
     color: #ed820e;
-    background-color: #89cb67;
+    background-color: #000040;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ededab;
+}
+
+.navbar a:hover {
+    color: #00aaaa;
 }
 
 [contenteditable] {
     outline: 0px solid transparent;
 }
 
-.writing_article p{
+.writing_article p{ 
     color: #dcaddd;
     padding-left: 10rem;
     padding-right: 10rem;
     display: flex;
-    justify-content: center;
-    border: 0;
+    justify-content: center;   
 }
 
 .sticky {
     top: 0;
     position: fixed;
-}
-
-section {
-    height: 500px;
 }
