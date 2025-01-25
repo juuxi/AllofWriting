@@ -2,6 +2,7 @@ body {
     background-color: #000;
     color: #fff;
     margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header {
@@ -9,12 +10,12 @@ header {
 }
 
 h1 {
-    color: blue;
+    color: #fff;
     text-align: center;
     margin: 0;
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color: #000040;
+    background-color: #000060;
 }
 
 .navbar {
@@ -25,12 +26,13 @@ h1 {
     width: 100%;
     z-index: 999;
     color: #ed820e;
-    background-color: navy;
+    background-color: #000030;
 }
 
 .navbar a {
     text-decoration: none;
-    color: #ededab;
+    font-size: 1.5em;
+    color: #fdfd5b;
 }
 
 .navbar a:hover {
@@ -42,12 +44,15 @@ h1 {
 }
 
 .writing_article p{ 
-    color: #dcaddd;
+    color: #cceded;
     display: block;
-    text-align: center;   
+    text-align: center;  
+    font-size: 1.3em;
 }
 
 .wrapper-article {
+    padding-top: 2%;
+    padding-bottom: 2%; 
     padding-left: 20%;
     padding-right: 20%;
 }
