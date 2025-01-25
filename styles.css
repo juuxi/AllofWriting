@@ -11,7 +11,10 @@ header {
 h1 {
     color: blue;
     text-align: center;
-    padding: 5%;
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #000040;
 }
 
 .navbar {
@@ -19,9 +22,10 @@ h1 {
     justify-content: space-around;
     align-items: center;
     height: 50px;
+    width: 100%;
     z-index: 999;
     color: #ed820e;
-    background-color: #000040;
+    background-color: navy;
 }
 
 .navbar a {
