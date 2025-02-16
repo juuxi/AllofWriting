@@ -6,20 +6,7 @@
         <meta name="viewport" content="widht=device-width, initial-scale:1.0">
         <link rel="stylesheet" href="styles.css">
         <script type="text/javascript" src="scripts.js"></script>
-        <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.js"></script>
-        <script type="text/javascript">
-            $(window).scroll(function(){
-                if($(this).scrollTop()>50) {
-                    $(".navbar").addClass("sticky");
-                }
-            })
-
-            $(window).scroll(function(){
-                if($(this).scrollTop()<50) {
-                    $(".navbar").removeClass("sticky");
-                }
-            })
-        </script>
+        <script type="text/javascript" src="sticky_nav.js"></script>
     </head>
     <body>
         <header>
@@ -35,5 +22,8 @@
                 <p>Type here</p>
             </article>
         </div> 
+        <section>
+
+        </section>
     </body>
 </html>

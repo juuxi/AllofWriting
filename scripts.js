@@ -1,3 +1,6 @@
+window.addEventListener("DOMContentLoaded", () => {
+});
+
 function update_cookies() {
     text = '';
     texts = document.querySelectorAll('p');
@@ -20,4 +23,4 @@ function get_cookies() {
 }
 
 setTimeout(get_cookies, 0);
-setInterval(update_cookies, 5000);
+setInterval(update_cookies, 2000);
